@@ -1,0 +1,44 @@
+{
+  "name": "tablepage",
+  "description": "支持分页排序过滤查询的表格组件",
+  "version": "1.0.9",
+  "author": "zhengyuanyuan",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/tablepage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --display-error-details --config webpack.config.js"
+  },
+  "dependencies": {
+    "pug": "^2.0.4",
+    "view-design": "^4.2.0",
+    "vue": "^2.5.11"
+  },
+  "keywords": [
+    "vue",
+    "iview",
+    "table",
+    "page",
+    "sort",
+    "filter",
+    "tree"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": ">=3.4.1"
+  }
+}
